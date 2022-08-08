@@ -1,0 +1,105 @@
+  /*Multi event*/
+        .exhibz-event-tab .etn-row {
+            justify-content: center;
+        }
+
+        @media (max-width:1600px) {
+
+            .input-group>.custom-select:not(:first-child),
+            .input-group>.form-control:not(:first-child) {
+                width: 22ch;
+                animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+                white-space: nowrap;
+                overflow: hidden;
+                border-right: 2px solid;
+                font-size: 14px;
+            }
+
+            @keyframes typing {
+                from {
+                    width: 0
+                }
+            }
+
+            @keyframes blink {
+                50% {
+                    border-color: transparent
+                }
+            }
+        }
+
+        .etn-speaker-info .etn-speaker-thumb img {
+            height: 100%;
+            transform: scale(1);
+        }
+
+        .elementor-widget-etn-schedule .schedule-tab-wrapper .attr-nav {
+            text-align: center;
+        }
+
+        /* Logo css */
+        .header-standard .navbar-brand.logo {
+            max-width: 159px;
+        }
+
+        /* Navbar item css */
+        .navbar.navbar-light ul.navbar-nav>li ul.dropdown-menu li .dropdown-item {
+            font-weight: 700;
+        }
+
+        select.etn_event_select2.etn_event_select {
+            font-family: 'Raleway';
+            font-size: 16px;
+            font-weight: 500;
+            letter-spacing: .3px;
+        }
+
+        .schedule-tab-wrapper .etn-nav li a.etn-active {
+            border-bottom-color: #ff007a !important;
+        }
+
+        .schedule-tab-wrapper .etn-nav li a:after {
+            border-color: #ff007a transparent transparent transparent !important;
+        }
+
+        .etn-attendee-widget-holder h3 {
+            padding-bottom: 20px;
+        }
+
+        .etn-attendee-widget-holder {
+            padding-bottom: 60px;
+        }
+
+        .etn-nav li a.etn-active {
+            border-radius: 0 !important;
+        }
+
+        @-moz-document url-prefix() {
+            .home-default-search .etn-event-search-wrapper .etn-btn.etn-btn-primary {
+                padding: 10px 20px !important;
+            }
+
+            .home-default-search .etn-event-search-wrapper .etn-btn.etn-btn-primary::before {
+                position: relative;
+                right: 5px;
+                align-content
+            }
+        }
+
+        .ticket-btn.btn {
+            font-size: 15px;
+        }
+
+        /* CSS for firefox */
+        @-moz-document url-prefix() {
+
+            .home-default-search select.etn_event_select2.etn_event_select,
+            select.etn_event_select2.etn_event_select {
+                background: transparent;
+            }
+        }
+
+        .sinlge-event-registration .etn-widget .etn-event-form-parent .etn-btn:hover {
+            background: #fff;
+            color: #ffa217;
+        }
